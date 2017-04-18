@@ -178,7 +178,9 @@ ul {
     width: 25px;
 }
 
-
+.adalab-hover:hover{
+  color: white;
+}
 /*iconos*/
 
 .iconobox {
@@ -299,5 +301,12 @@ ul {
     }
     .footer {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .rol-size{
+      flex-direction: column;
+      font-size: 12px;
     }
 }
